@@ -1,0 +1,50 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  h1 {
+    color: black;
+    font-size: 50px;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
+p {
+  color: #86878B;
+}
+
+
+hr {
+  width: 320px;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.design,
+.crafted,
+.customize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+  color: #E27866;
+  padding-left: 30px;
+  h6 {
+    font-size: 24px;
+    color: #333333;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  p {
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+  }
+}

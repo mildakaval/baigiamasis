@@ -1,0 +1,42 @@
+#home {
+  display: flex;
+  background: #00000045;
+  background-image: url(../assets/home-cover.png);
+  background-blend-mode: darken;
+  height: 639px;
+  .home-text {
+    img {
+      width: 300px;
+      height: 200px;
+    }
+    h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+    }
+    hr {
+      border: 2px solid #E27866;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      width: 80px;
+    }
+    .btn {
+      width: 170px;
+      height: 40px;
+      background-color: #FFEEDB;
+      border: 2px solid black;
+      border-radius: 10px;
+      font-size: 20px;
+      text-emphasis-color: #E27866;
+    }
+      .btn:hover {
+      background-color: #FFD8CC;
+  }
+}
+  @import "form";
+}

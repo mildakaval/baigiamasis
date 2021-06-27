@@ -1,0 +1,37 @@
+#mediaBar {
+  width: 100%;
+  height: 105px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 70px;
+  .text {
+    padding-top: 80px;
+    align-items: left;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+  }
+  p {
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+  }
+}
+ .text h4 {
+  font-size: 20px;
+  color: #333333;
+  text-align: left;
+  margin-left: 20px;
+}
+ul.icon li {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 70px;
+  font-size: 40px;
+  color: #E27866;
+}
